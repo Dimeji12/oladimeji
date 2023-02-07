@@ -1,0 +1,129 @@
+@charset "utf-8";
+*{
+  box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+  background-color:hsl(224, 23%, 55%);
+}
+
+svg{
+   display:inline;
+   position:relative; 
+}
+
+.svg2{
+  width:350px;
+  height:180px;
+  left:465px;
+  bottom:400px;
+  top:40px;
+  position:absolute; 
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+}
+
+
+div.container-item2{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-direction:column;
+  left:465px;
+  bottom:90px;
+  position:absolute; 
+  width:350px;
+  height:350px;
+  background-color:white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  
+}
+
+div.item1{
+  font-size:25px;
+  font-weight:bolder;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.item2{
+  
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size:13px;
+  font-weight:light;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div.para{
+  margin:0px;
+}
+
+div.item3{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  margin-right:8px
+}
+
+div.plan1{
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight:bolder;
+
+}
+
+div.plan2{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight:light;
+}
+
+
+
+div.item4{
+
+  display:flex;
+  
+  justify-content:space-around;
+  margin-left: 60px;
+  text-decoration: none; 
+ 
+}
+.link1{
+  text-decoration:none;
+}
+
+.container{
+  background-color: rgb(242, 242, 248);
+  /* border:1px solid  rgb(242, 242, 248); */
+  width:300px;
+  height:70px;
+  border-radius:10px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.link2{
+  text-decoration: none;
+  color:white;
+  
+}
+
+.item5{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+  background-color:rgb(38, 38, 227);
+  width:300px;
+  height:40px;
+   border-radius:10px;
+}
+
+.link3{
+  text-decoration: none;
+}
+
